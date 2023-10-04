@@ -2,8 +2,8 @@
 
 *{
     font-family: 'Rubik', sans-serif;
-
     box-sizing: border-box;
+
 }
 
 .menu {
@@ -29,14 +29,12 @@
     margin-right: auto; 
 }
 
-/* Aplique estilo à div que engloba "Cadastre-se" e "Entrar" */
 .cadastro {
     display: flex;
-    align-items: center; /* Centralize verticalmente Cadastre-se e Entrar */
-    margin-left: 125px; /* Empurre Cadastre-se e Entrar para a direita */
-    margin-right: 20px; /* Adicione margem à direita para afastar dos outros itens do menu */
+    align-items: center; 
+    margin-left: 125px; 
+    margin-right: 20px; 
 }
-
 
 .menu-item a {
 
@@ -56,19 +54,17 @@
     font-weight: 500;
 }
 
-
 .logo img {
     margin-right: 100px; 
     justify-content: center;
     align-items: center;
 }
 
-
 .btn-login {
     background: transparent;
     color: #304F8C;
     cursor: pointer;
-    padding: 10px 50px;
+    padding: 16px 50px;
     font-weight: 500;
     font-size: 16px;
     border: 1px solid;
@@ -77,19 +73,16 @@
 
 }
 
-/* Estilize o contêiner do herói */
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
-/* Estilize o conteúdo do herói (texto e botão) */
 .hero-content {
-    flex: 2; /* Ocupa 50% do espaço disponível */
-    padding: 100px; /* Adicione algum espaçamento interno */
-
-
+    flex: 2; 
+    padding: 100px; 
 }
 
 .hero h1 {
@@ -105,25 +98,19 @@
     max-width: 527px;
     margin-bottom: 32px;
     color: rgba(48, 79, 140, 1);
-
 }
 
-
-/* Estilize a imagem do herói */
 .hero-image {
-    flex: 2; /* Ocupa 50% do espaço disponível */
+    flex: 2; 
     text-align: center;
-
-    
 }
 
 .hero-image img {
-    max-width: 70%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    width: 80%; /* Ajuste o tamanho da imagem conforme desejado (por exemplo, 80%) */
-    height: auto; /* Mantenha a proporção da imagem */
+    max-width: 70%; 
+    width: 80%; 
+    height: auto; 
 }
 
-/* Estilize o botão "Quero conhecer" */
 .btn-toknow {
     background-color: #304F8C;
     color: white;
@@ -133,9 +120,7 @@
     font-size: 16px;
     border: none;
     border-radius: 8px;
-
 }
-
 
 .about {
     display: flex;
@@ -146,17 +131,17 @@
     border-radius: 10px;
     margin: 35px 100px;
     text-align: center;
+    margin-bottom: 97px;
     -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
     box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
 }
 
-/* Estilize cada "solution" (imagem com título e texto) */
 .solution {
     display: flex;
     align-items: center;
-    text-align: left; /* Alinhe o texto à esquerda */
-    margin: 0; /* Remova completamente o espaço entre os elementos .solution */
+    text-align: left; 
+    margin: 0; 
 }
 
 .solution img {
@@ -169,33 +154,30 @@
     font-weight: 700;
     margin: 0;
     color: #111826;
-    text-align: left; /* Alinhe o texto à esquerda */
+    text-align: left; 
 }
 
 .solution-text span {
     font-size: 14px;
     color: #4C5D73;
-    text-align: left; /* Alinhe o texto à esquerda */
+    text-align: left; 
 }
-
 
 .services-subtitle {
-    text-align: left; /* Alinhe o texto à esquerda */
-    margin-bottom: 0; /* Reduza a margem inferior para 0 */
-    margin-left: 100px; /* Adicione margem à esquerda de 100px */
+    text-align: left; 
+    margin-left: 100px; 
 }
-
 
 .services-subtitle h2 {
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 37px;
-    font-size: 16px; /* Ajuste o tamanho da fonte do subtítulo */
+    font-size: 16px; 
     color: #4C5D73;
 }
 
 .services-subtitle h1 {
-    font-size: 32px; /* Ajuste o tamanho da fonte do título */
+    font-size: 32px; 
     font-weight: 700;
     margin: 0;
     color: #111826;
@@ -205,24 +187,24 @@
 .services-container {
     display: flex;
     justify-content: space-between;
-    padding: 48px 85px; /* Margem acima e abaixo de 50px, margem esquerda e direita de 0 */
+    padding: 48px 85px;
 }
 
-/* Estilize cada bloco de serviço */
 .service {
-    flex: 1; /* Distribua igualmente o espaço disponível entre os blocos */
-    padding: 20px; /* Adicione preenchimento interno */
+    flex: 1; 
+    padding: 20px; 
     -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
     box-shadow: 10px 10px 106px 0px rgba(221, 19, 19, 0.048);
     border-radius: 10px;
     text-align: left;
-    margin: 10px 10px 0; /* Margem superior e inferior de 20px, margem direita e esquerda de 20px */
+    margin: 10px 10px 0; 
+    margin-bottom: 72px;
 }
 
 .service img {
     max-width: 100px;
-    margin-bottom: 25px; /* Espaço abaixo da imagem */
+    margin-bottom: 25px; 
 }
 
 .service h2 {
@@ -230,14 +212,199 @@
     font-weight: 700;
     margin: 0;
     color: #111826;
-    margin-bottom: 10px; /* Reduza o espaço entre o título e o parágrafo */
+    margin-bottom: 10px; 
 }
 
 .service p {
     font-size: 14px;
     color: #4C5D73;
-    margin: 0;
-    margin-bottom: 0px; /* Reduza o espaço entre parágrafos */
 }
 
+.about-us {
+    display: flex;
+    align-items: center;
+}
 
+.about-us-subtitle {
+    text-align: left;
+    padding: 1px 100px;
+    margin-right: 100px;
+}
+
+.about-us-subtitle h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #4C5D73;
+}
+
+.about-us-subtitle h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111826;
+    width: 826px;
+}
+
+.about-us-image img {
+    max-width: 90%;
+    width: 90%;
+    height: auto;
+    margin-right: 31px; 
+}
+
+.about-us-content {
+    flex: 1;
+    padding: 178px; 
+    text-align: left;
+
+}
+
+.about-us p {
+    font-size: 16px;
+    color: rgba(48, 79, 140, 1);
+    margin-bottom: 16px;
+    padding: 6px;
+    line-height: 24px;
+}
+
+.btn-cases {
+    background: transparent;
+    color: #304F8C;
+    cursor: pointer;
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-top: 20px; 
+    -webkit-box-shadow: 1px 1px 25px 0px rgba(48,79,140,0.45);
+    -moz-box-shadow: 1px 1px 25px 0px rgba(48,79,140,0.45);
+    box-shadow: 1px 1px 25px 0px rgba(48, 79, 140, 0.116);
+}
+
+.atuacao-subtitle {
+    text-align: left;
+    padding: 1px 100px;
+    margin-right: 100px;
+}
+
+.atuacao-subtitle h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #4C5D73;
+}
+
+.atuacao-subtitle h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111826;
+    width: 826px;
+}
+
+.atuacao-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 85px;
+}
+
+.atuacao {
+    flex: 1; 
+    padding: 80px; 
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    box-shadow: 10px 10px 106px 0px rgba(221, 19, 19, 0.048);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 10px 0; 
+    margin-bottom: 97px;
+
+}
+
+.atuacao img {
+    max-width: 900px;
+    margin-bottom: 35px;
+
+}
+
+.atuacao h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    color: #111826;
+
+}
+
+.plans-subtitle {
+    text-align: left;
+    padding: 1px 100px;
+    margin-right: 100px;
+}
+
+.plans-subtitle h2 {
+    font-weight: 400;
+    font-size: 16px; 
+    color: #4C5D73;
+}
+
+.plans-subtitle h1 {
+    font-size: 32px; 
+    font-weight: 700;
+    margin: 0;
+    color: #111826;
+}
+
+.plans-container {
+    display: flex;
+    flex-wrap: wrap; /* Permita que os planos se ajustem automaticamente em várias linhas */
+    justify-content: center; /* Alinhe os planos ao centro */
+    padding: 48px 0; /* Adicione preenchimento acima e abaixo */
+}
+
+.plans {
+    flex: 1; 
+    padding: 30px;
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    box-shadow: 10px 10px 106px 0px rgba(221, 19, 19, 0.048);
+    border-radius: 10px;
+    text-align: left; /* Centralize o conteúdo */
+    margin: 50px; /* Adicione margem entre os planos */
+    max-width: 300px; /* Defina uma largura máxima para os planos */
+}
+
+.plans h2 {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    color: #111826;
+    margin-bottom: 20px;
+}
+
+.plans h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    color: #111826;
+    
+}
+
+.plans p {
+    font-size: 16px;
+    color: #4C5D73;
+    margin-bottom: 20px; /* Reduza o espaço entre o texto e o botão */
+}
+
+.btn-plans {
+    background: transparent;
+    color: #304F8C;
+    cursor: pointer;
+    padding: 12px 24px; /* Reduza o preenchimento do botão para torná-lo mais compacto */
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 52px;
+
+}
