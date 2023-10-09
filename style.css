@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
-*{
+* {
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 
@@ -12,8 +12,8 @@
 }
 
 .menu img {
-    margin-left: 12px; 
-    height: auto; 
+    margin-left: 12px;
+    height: auto;
 }
 
 .menu ul {
@@ -21,19 +21,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px; 
+    padding: 0 50px;
 
 }
 
 .menu-item {
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .cadastro {
     display: flex;
-    align-items: center; 
-    margin-left: 125px; 
-    margin-right: 20px; 
+    align-items: center;
+    margin-left: 125px;
+    margin-right: 20px;
 }
 
 .menu-item a {
@@ -44,7 +44,7 @@
 }
 
 .cadastro-item {
-    margin-right: 50px; 
+    margin-right: 50px;
 }
 
 .cadastro-item a {
@@ -55,7 +55,7 @@
 }
 
 .logo img {
-    margin-right: 100px; 
+    margin-right: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -81,8 +81,8 @@
 }
 
 .hero-content {
-    flex: 2; 
-    padding: 100px; 
+    flex: 2;
+    padding: 100px;
 }
 
 .hero h1 {
@@ -101,14 +101,14 @@
 }
 
 .hero-image {
-    flex: 2; 
+    flex: 2;
     text-align: center;
 }
 
 .hero-image img {
-    max-width: 70%; 
-    width: 80%; 
-    height: auto; 
+    max-width: 70%;
+    width: 80%;
+    height: auto;
 }
 
 .btn-toknow {
@@ -132,16 +132,16 @@
     margin: 35px 100px;
     text-align: center;
     margin-bottom: 97px;
-    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
 }
 
 .solution {
     display: flex;
     align-items: center;
-    text-align: left; 
-    margin: 0; 
+    text-align: left;
+    margin: 0;
 }
 
 .solution img {
@@ -154,18 +154,19 @@
     font-weight: 700;
     margin: 0;
     color: #111826;
-    text-align: left; 
+    text-align: left;
 }
 
 .solution-text span {
     font-size: 14px;
     color: #4C5D73;
-    text-align: left; 
+    text-align: left;
 }
 
 .services-subtitle {
     text-align: left;
-    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
+    padding-left: 100px;
+    /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
@@ -173,7 +174,8 @@
     font-weight: 400;
     font-size: 16px;
     color: #4C5D73;
-    margin: 0; /* Remova a margem superior padrão */
+    margin: 0;
+    /* Remova a margem superior padrão */
     letter-spacing: 1px;
 }
 
@@ -192,20 +194,20 @@
 }
 
 .service {
-    flex: 1; 
-    padding: 20px; 
-    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 10px 10px 106px 0px rgba(221, 19, 19, 0.048);
     border-radius: 10px;
     text-align: left;
-    margin: 10px 10px 0; 
+    margin: 10px 10px 0;
     margin-bottom: 72px;
 }
 
 .service img {
     max-width: 100px;
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }
 
 .service h2 {
@@ -213,7 +215,7 @@
     font-weight: 700;
     margin: 0;
     color: #111826;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .service p {
@@ -228,7 +230,8 @@
 
 .about-us-subtitle {
     text-align: left;
-    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
+    padding-left: 100px;
+    /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
@@ -236,7 +239,8 @@
     font-weight: 400;
     font-size: 16px;
     color: #4C5D73;
-    margin: 0; /* Remova a margem superior padrão */
+    margin: 0;
+    /* Remova a margem superior padrão */
     letter-spacing: 1px;
 }
 
@@ -252,13 +256,19 @@
     max-width: 90%;
     width: 90%;
     height: auto;
-    margin-right: 31px; 
+    margin-right: 31px;
 }
 
 .about-us-content {
     flex: 1;
-    padding: 178px; 
+    padding: 178px;
     text-align: left;
+
+}
+
+.about-us-content img {
+    margin-left: 9px;
+
 
 }
 
@@ -279,15 +289,18 @@
     font-size: 16px;
     border: 1px solid;
     border-radius: 8px;
-    margin-top: 20px; 
-    -webkit-box-shadow: 1px 1px 25px 0px rgba(48,79,140,0.45);
-    -moz-box-shadow: 1px 1px 25px 0px rgba(48,79,140,0.45);
+    margin-top: 20px;
+    -webkit-box-shadow: 1px 1px 25px 0px rgba(48, 79, 140, 0.45);
+    -moz-box-shadow: 1px 1px 25px 0px rgba(48, 79, 140, 0.45);
     box-shadow: 1px 1px 25px 0px rgba(48, 79, 140, 0.116);
 }
 
+
+
 .atuacao-subtitle {
     text-align: left;
-    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
+    padding-left: 100px;
+    /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
@@ -295,7 +308,8 @@
     font-weight: 400;
     font-size: 16px;
     color: #4C5D73;
-    margin: 0; /* Remova a margem superior padrão */
+    margin: 0;
+    /* Remova a margem superior padrão */
     letter-spacing: 1px;
 }
 
@@ -314,14 +328,14 @@
 }
 
 .atuacao {
-    flex: 1; 
-    padding: 80px; 
-    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    flex: 1;
+    padding: 80px;
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 10px 10px 106px 0px rgba(221, 19, 19, 0.048);
     border-radius: 10px;
     text-align: center;
-    margin: 10px 10px 0; 
+    margin: 10px 10px 0;
     margin-bottom: 97px;
 
 }
@@ -339,9 +353,11 @@
     color: #111826;
 
 }
+
 .plans-subtitle {
     text-align: left;
-    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
+    padding-left: 100px;
+    /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
@@ -349,7 +365,8 @@
     font-weight: 400;
     font-size: 16px;
     color: #4C5D73;
-    margin: 0; /* Remova a margem superior padrão */
+    margin: 0;
+    /* Remova a margem superior padrão */
     letter-spacing: 1px;
 }
 
@@ -363,19 +380,21 @@
 .plans-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Alinhe os planos à esquerda horizontalmente */
+    justify-content: flex-start;
+    /* Alinhe os planos à esquerda horizontalmente */
     padding: 48px 85px;
+    margin-bottom: 55px;
 }
 
 .plans {
     flex: 1;
     padding: 26px;
-    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
     border-radius: 10px;
     text-align: left;
-    margin: 0 10px 50px;
+    margin: auto;
     max-width: 300px;
 }
 
@@ -398,13 +417,15 @@
 .plan-content p {
     font-size: 14px;
     color: #4C5D73;
-    margin-bottom: 30px; /* Espaçamento entre o parágrafo e o botão */
+    margin-bottom: 30px;
+    /* Espaçamento entre o parágrafo e o botão */
 }
 
 
 .plan-price {
     display: flex;
-    align-items: center; /* Alinhe o preço e "/mês" verticalmente */
+    align-items: center;
+    /* Alinhe o preço e "/mês" verticalmente */
 }
 
 .plan-price h1 {
@@ -417,7 +438,8 @@
 .plan-price small {
     font-size: 12px;
     color: #4C5D73;
-    margin-left: 4px; /* Adicione um espaço entre o preço e "/mês" */
+    margin-left: 4px;
+    /* Adicione um espaço entre o preço e "/mês" */
     margin-top: -10px;
 }
 
@@ -425,7 +447,7 @@
     background: transparent;
     color: #304F8C;
     cursor: pointer;
-    padding: 13px 49px;
+    padding: 13px 63px;
     font-weight: 700;
     font-size: 16px;
     border: 1px solid;
@@ -436,27 +458,34 @@
 .popular-badge {
     width: 137px;
     height: 37px;
-    background-color: #94F2E9; /* Cor do fundo do quadrado */
-    border-radius: 100px; /* Para torná-lo redondo */
+    background-color: #94F2E9;
+    /* Cor do fundo do quadrado */
+    border-radius: 100px;
+    /* Para torná-lo redondo */
     text-align: center;
-    margin: 0 auto; /* Centraliza horizontalmente */
-    margin-top: -37px; /* Move o "Popular Badge" um pouco acima do título */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    margin-top: -37px;
+    /* Move o "Popular Badge" um pouco acima do título */
     display: flex;
     justify-content: center;
-    align-items: center; /* Centraliza o texto verticalmente */
+    align-items: center;
+    /* Centraliza o texto verticalmente */
 }
 
 .popular-badge p {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    color: #304F8C; /* Cor do texto dentro do quadrado */
+    color: #304F8C;
+    /* Cor do texto dentro do quadrado */
 }
 
 
 .plan-price-green {
     display: flex;
-    align-items: center; /* Alinhe o preço e "/mês" verticalmente */
+    align-items: center;
+    /* Alinhe o preço e "/mês" verticalmente */
 }
 
 .plan-price-green h1 {
@@ -469,7 +498,8 @@
 .plan-price-green small {
     font-size: 12px;
     color: #FFFFFF;
-    margin-left: 4px; /* Adicione um espaço entre o preço e "/mês" */
+    margin-left: 4px;
+    /* Adicione um espaço entre o preço e "/mês" */
     margin-top: -10px;
 }
 
@@ -478,12 +508,12 @@
     flex: 1;
     padding: 26px;
     background: #304F8C;
-    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
     border-radius: 10px;
     text-align: left;
-    margin: 0 10px 50px;
+    margin: auto;
     max-width: 300px;
 
 }
@@ -507,14 +537,15 @@
 .plans-essential-content p {
     font-size: 14px;
     color: #FFFFFF;
-    margin-bottom: 30px; /* Espaçamento entre o parágrafo e o botão */
+    margin-bottom: 30px;
+    /* Espaçamento entre o parágrafo e o botão */
 }
 
 .btn-plans-essential {
     background: #EAEDF3;
     color: #304F8C;
     cursor: pointer;
-    padding: 13px 49px;
+    padding: 13px 63px;
     font-weight: 700;
     font-size: 16px;
     border: 1px solid;
@@ -523,7 +554,8 @@
 }
 
 .plan-box {
-    position: relative; /* Adicione essa propriedade para posicionar elementos filhos relativamente */
+    position: relative;
+    /* Adicione essa propriedade para posicionar elementos filhos relativamente */
     margin: auto;
     width: 770px;
     height: 392px;
@@ -533,21 +565,26 @@
     align-items: center;
     background-color: #EAEDF3;
     border-radius: 13px;
+    margin-bottom: 128px;
 }
 
 .quote-image {
     position: absolute;
-    top: -16px; /* Ajuste a posição vertical conforme necessário */
-    right: 58px; /* Ajuste a posição horizontal para o canto superior direito */
+    top: -16px;
+    /* Ajuste a posição vertical conforme necessário */
+    right: 58px;
+    /* Ajuste a posição horizontal para o canto superior direito */
 }
 
 .quote-image img {
-    width: 68px; /* Ajuste o tamanho da imagem de aspas conforme necessário */
+    width: 68px;
+    /* Ajuste o tamanho da imagem de aspas conforme necessário */
 }
 
 .plan-image {
     width: 175px;
-    height: 226.8px; /* Altura da imagem */
+    height: 226.8px;
+    /* Altura da imagem */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -557,8 +594,10 @@
 
 .plan-image img {
     max-width: 100%;
-    max-height: 100%; /* Garante que a imagem não exceda a altura do contêiner */
-    object-fit: contain; /* Mantém a proporção da imagem e a ajusta ao contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não exceda a altura do contêiner */
+    object-fit: contain;
+    /* Mantém a proporção da imagem e a ajusta ao contêiner */
 }
 
 .plan-citation {
@@ -572,34 +611,37 @@
     margin-top: -20px;
 }
 
-/* Estilizando o rodapé */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 footer {
-    background-color: #333;
+    background-color: #111826;
     color: #fff;
-    padding: 20px 52px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-/* Estilizando as seções do rodapé com alinhamento à esquerda e margem lateral */
+
 footer .section {
-    padding: 20px 50px;
+    flex: 1;
+    padding: 50px 4%;
     box-sizing: border-box;
-    text-align: left; /* Alinha o texto à esquerda */
-    margin-bottom: 72px;
+    text-align: left;
+    margin-bottom: 7px;
 }
 
 
-
-/* Estilizando os cabeçalhos das seções */
 footer h3 {
     font-size: 18px;
     margin-bottom: 22px;
 }
 
-/* Estilizando a lista de links */
+
 footer ul {
     list-style: none;
     padding: 0;
@@ -612,55 +654,42 @@ footer ul li {
 footer ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s;
+    font-size: 16px;
 }
 
-footer ul li a:hover {
-    color: #00bcd4; /* Cor de destaque ao passar o mouse */
-}
-
-
-/* Estilizando o formulário da newsletter */
 footer form {
     margin-top: 10px;
-    display: flex; /* Use flexbox para alinhar os elementos do formulário */
-    align-items: center; /* Alinhe verticalmente os elementos do formulário */
+    display: flex;
+    align-items: center;
 }
 
 footer input[type="email"] {
-    flex: 1; /* O campo de e-mail ocupa todo o espaço disponível */
-    padding: 12px;
+    flex: 1;
+    padding: 14px 29px;
     border: none;
     outline: none;
-    -webkit-border-top-left-radius: 6px;
--webkit-border-bottom-left-radius: 6px;
--moz-border-radius-topleft: 6px;
--moz-border-radius-bottomleft: 6px;
-border-top-left-radius: 6px;
-border-bottom-left-radius: 6px;
+    font-size: 14px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: rgba(17, 24, 38, 0.5);
+    font-weight: 500;
 }
 
 footer input[type="submit"] {
     background-color: #fff;
     color: #111826;
     border: none;
-    padding: 10px 12px 12px;
+    padding: 10px 12px 11px;
     cursor: pointer;
-    -webkit-border-top-right-radius: 3px;
--webkit-border-bottom-right-radius: 3px;
--moz-border-radius-topright: 3px;
--moz-border-radius-bottomright: 3px;
-border-top-right-radius: 3px;
-border-bottom-right-radius: 3px;
-    font-weight: 700;
-
+    font-size: 18px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-weight: 500;
 }
-
 
 /* Estilizando as redes sociais */
 footer #redes-sociais {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 footer #redes-sociais img {
@@ -669,12 +698,28 @@ footer #redes-sociais img {
     margin-right: 10px;
 }
 
-/* Estilizando a linha horizontal */
-footer #linha-horizontal {
-    margin-top: 20px;
-    border-top: 1px solid #666;
-    padding-top: 10px;
-    font-size: 14px;
+footer #redes-sociais .facebo {
+    width: 12px;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
+.idk {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    background-color: #111826;
+    color: #fff;
+    margin-top: 1px;
+    margin-bottom: 0;
+    /* Removi a margem inferior para evitar o espaço extra */
+    padding: 20px 0;
+    /* Adicionei preenchimento para manter a altura */
+}
 
+.idk p {
+    margin: 0;
+    /* Removi a margem para evitar espaço extra */
+}
