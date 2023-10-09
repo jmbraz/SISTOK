@@ -164,25 +164,26 @@
 }
 
 .services-subtitle {
-    text-align: left; 
-    margin-left: 100px; 
+    text-align: left;
+    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
+    margin-right: 100px;
 }
 
 .services-subtitle h2 {
     font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 37px;
-    font-size: 16px; 
+    font-size: 16px;
     color: #4C5D73;
+    margin: 0; /* Remova a margem superior padrão */
+    letter-spacing: 1px;
 }
 
 .services-subtitle h1 {
-    font-size: 32px; 
+    font-size: 32px;
     font-weight: 700;
-    margin: 0;
+    margin: 10px 0;
     color: #111826;
-    width: 826px;
 }
+
 
 .services-container {
     display: flex;
@@ -227,23 +228,25 @@
 
 .about-us-subtitle {
     text-align: left;
-    padding: 1px 100px;
+    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
 .about-us-subtitle h2 {
     font-weight: 400;
-    letter-spacing: 1px;
     font-size: 16px;
     color: #4C5D73;
+    margin: 0; /* Remova a margem superior padrão */
+    letter-spacing: 1px;
 }
 
 .about-us-subtitle h1 {
     font-size: 32px;
     font-weight: 700;
+    margin: 10px 0;
     color: #111826;
-    width: 826px;
 }
+
 
 .about-us-image img {
     max-width: 90%;
@@ -284,23 +287,25 @@
 
 .atuacao-subtitle {
     text-align: left;
-    padding: 1px 100px;
+    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
 .atuacao-subtitle h2 {
     font-weight: 400;
-    letter-spacing: 1px;
     font-size: 16px;
     color: #4C5D73;
+    margin: 0; /* Remova a margem superior padrão */
+    letter-spacing: 1px;
 }
 
 .atuacao-subtitle h1 {
     font-size: 32px;
     font-weight: 700;
+    margin: 10px 0;
     color: #111826;
-    width: 826px;
 }
+
 
 .atuacao-container {
     display: flex;
@@ -334,77 +339,342 @@
     color: #111826;
 
 }
-
 .plans-subtitle {
     text-align: left;
-    padding: 1px 100px;
+    padding-left: 100px; /* Ajuste o espaço à esquerda para começar a partir daqui */
     margin-right: 100px;
 }
 
 .plans-subtitle h2 {
     font-weight: 400;
-    font-size: 16px; 
+    font-size: 16px;
     color: #4C5D73;
+    margin: 0; /* Remova a margem superior padrão */
+    letter-spacing: 1px;
 }
 
 .plans-subtitle h1 {
-    font-size: 32px; 
+    font-size: 32px;
     font-weight: 700;
-    margin: 0;
+    margin: 10px 0;
     color: #111826;
 }
 
 .plans-container {
     display: flex;
-    flex-wrap: wrap; /* Permita que os planos se ajustem automaticamente em várias linhas */
-    justify-content: center; /* Alinhe os planos ao centro */
-    padding: 48px 0; /* Adicione preenchimento acima e abaixo */
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinhe os planos à esquerda horizontalmente */
+    padding: 48px 85px;
 }
 
 .plans {
-    flex: 1; 
-    padding: 30px;
+    flex: 1;
+    padding: 26px;
     -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
-    box-shadow: 10px 10px 106px 0px rgba(221, 19, 19, 0.048);
+    box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
     border-radius: 10px;
-    text-align: left; /* Centralize o conteúdo */
-    margin: 50px; /* Adicione margem entre os planos */
-    max-width: 300px; /* Defina uma largura máxima para os planos */
+    text-align: left;
+    margin: 0 10px 50px;
+    max-width: 300px;
 }
 
 .plans h2 {
     font-size: 17px;
     font-weight: 400;
-    margin: 0;
+    margin: 10px 0;
     color: #111826;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.plans h1 {
+
+.plan-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.plan-content p {
+    font-size: 14px;
+    color: #4C5D73;
+    margin-bottom: 30px; /* Espaçamento entre o parágrafo e o botão */
+}
+
+
+.plan-price {
+    display: flex;
+    align-items: center; /* Alinhe o preço e "/mês" verticalmente */
+}
+
+.plan-price h1 {
     font-size: 32px;
     font-weight: 700;
-    margin: 0;
+    margin: 10px 0;
     color: #111826;
-    
 }
 
-.plans p {
-    font-size: 16px;
+.plan-price small {
+    font-size: 12px;
     color: #4C5D73;
-    margin-bottom: 20px; /* Reduza o espaço entre o texto e o botão */
+    margin-left: 4px; /* Adicione um espaço entre o preço e "/mês" */
+    margin-top: -10px;
 }
 
 .btn-plans {
     background: transparent;
     color: #304F8C;
     cursor: pointer;
-    padding: 12px 24px; /* Reduza o preenchimento do botão para torná-lo mais compacto */
-    font-weight: 500;
+    padding: 13px 49px;
+    font-weight: 700;
     font-size: 16px;
     border: 1px solid;
     border-radius: 8px;
     text-align: center;
-    padding: 12px 52px;
+}
+
+.popular-badge {
+    width: 137px;
+    height: 37px;
+    background-color: #94F2E9; /* Cor do fundo do quadrado */
+    border-radius: 100px; /* Para torná-lo redondo */
+    text-align: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: -37px; /* Move o "Popular Badge" um pouco acima do título */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o texto verticalmente */
+}
+
+.popular-badge p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #304F8C; /* Cor do texto dentro do quadrado */
+}
+
+
+.plan-price-green {
+    display: flex;
+    align-items: center; /* Alinhe o preço e "/mês" verticalmente */
+}
+
+.plan-price-green h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.plan-price-green small {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 4px; /* Adicione um espaço entre o preço e "/mês" */
+    margin-top: -10px;
+}
+
+
+.plans-essential {
+    flex: 1;
+    padding: 26px;
+    background: #304F8C;
+    -webkit-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 10px 106px 0px rgba(0,0,0,0.36);
+    box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
+    border-radius: 10px;
+    text-align: left;
+    margin: 0 10px 50px;
+    max-width: 300px;
 
 }
+
+.plans-essential h2 {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+.plans-essential-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.plans-essential-content p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 30px; /* Espaçamento entre o parágrafo e o botão */
+}
+
+.btn-plans-essential {
+    background: #EAEDF3;
+    color: #304F8C;
+    cursor: pointer;
+    padding: 13px 49px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.plan-box {
+    position: relative; /* Adicione essa propriedade para posicionar elementos filhos relativamente */
+    margin: auto;
+    width: 770px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEDF3;
+    border-radius: 13px;
+}
+
+.quote-image {
+    position: absolute;
+    top: -16px; /* Ajuste a posição vertical conforme necessário */
+    right: 58px; /* Ajuste a posição horizontal para o canto superior direito */
+}
+
+.quote-image img {
+    width: 68px; /* Ajuste o tamanho da imagem de aspas conforme necessário */
+}
+
+.plan-image {
+    width: 175px;
+    height: 226.8px; /* Altura da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: -65px;
+}
+
+.plan-image img {
+    max-width: 100%;
+    max-height: 100%; /* Garante que a imagem não exceda a altura do contêiner */
+    object-fit: contain; /* Mantém a proporção da imagem e a ajusta ao contêiner */
+}
+
+.plan-citation {
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #4C5D73;
+    margin-top: -20px;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 52px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilizando as seções do rodapé com alinhamento à esquerda e margem lateral */
+footer .section {
+    padding: 20px 50px;
+    box-sizing: border-box;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 72px;
+}
+
+
+
+/* Estilizando os cabeçalhos das seções */
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+/* Estilizando a lista de links */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #00bcd4; /* Cor de destaque ao passar o mouse */
+}
+
+
+/* Estilizando o formulário da newsletter */
+footer form {
+    margin-top: 10px;
+    display: flex; /* Use flexbox para alinhar os elementos do formulário */
+    align-items: center; /* Alinhe verticalmente os elementos do formulário */
+}
+
+footer input[type="email"] {
+    flex: 1; /* O campo de e-mail ocupa todo o espaço disponível */
+    padding: 12px;
+    border: none;
+    outline: none;
+    -webkit-border-top-left-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+
+footer input[type="submit"] {
+    background-color: #fff;
+    color: #111826;
+    border: none;
+    padding: 10px 12px 12px;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-moz-border-radius-topright: 3px;
+-moz-border-radius-bottomright: 3px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+    font-weight: 700;
+
+}
+
+
+/* Estilizando as redes sociais */
+footer #redes-sociais {
+    margin-top: 10px;
+}
+
+footer #redes-sociais img {
+    width: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Estilizando a linha horizontal */
+footer #linha-horizontal {
+    margin-top: 20px;
+    border-top: 1px solid #666;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
