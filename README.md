@@ -32,7 +32,7 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Deploy
 
-O projeto está disponível em [Clone-Sistok no Vercel](sistok-yv3z.vercel.app) para visualização.
+O projeto está disponível em [Clone-Sistok no Vercel](https://sistok-yv3z.vercel.app/) para visualização.
 
 Seja bem-vindo ao Clone-Sistok, e sinta-se à vontade para contribuir ou entrar em contato conosco!
 
